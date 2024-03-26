@@ -1,0 +1,70 @@
+/* Styles for the game container */
+/* Styles for the game board */
+/* Styles for the game board */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, auto); /* Adjust the width of each column to fit content */
+  grid-auto-rows: auto; /* Adjust the height of each row to fit content */
+  grid-gap: 6px; /* Adjust the gap between each square */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the game container takes up the full height of the viewport */
+  width: 100vw; /* Ensure the game container takes up the full width of the viewport */
+  background-image: url('assets/bg.jpg');
+ /* Cover the entire webpage with the background image */
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  /* Additional background properties if needed */
+  padding-left: 450px;
+}
+
+
+
+.card {
+
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 24px;
+  font-family:sans-serif;
+  /*font should be bold*/
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #3d4c41;
+  border: 30px solid #fff;
+  transition: background-color 0.3s ease;
+   
+}
+
+/* Styles for the status */
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: Tahoma;
+  padding-right: 55px;
+}
+
+/* Styles for the square buttons */
+.square {
+  font-size: 24px;
+  /* Remove fixed width and height */
+  width: 78px;
+  height: 63px; 
+  margin: 0px;
+  background-color: #3d4c41;
+  color: #fff;
+  border: 2px solid #fff;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Added transition to smooth background color change */
+}
+
