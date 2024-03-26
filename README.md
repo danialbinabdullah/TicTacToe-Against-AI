@@ -1,4 +1,4 @@
-### Tic Tac Toe Game
+### Tic Tac Toe Game against AI Using React 
 This project is a simple Tic Tac Toe game implemented using React.js. It allows players to play against each other, with an added feature of playing against an AI powered by OpenAI's GPT-3 model.
 
 ### Table of Contents
